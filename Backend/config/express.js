@@ -34,7 +34,7 @@ app.use(helmet());
 app.use(cors());
 
 // authenticate
-//app.use(passport.initialize());
+app.use(passport.initialize());
 
 // app.use(function(req, res, next) {
 //     res.header("Access-Control-Allow-Origin", "http://localhost:4200");
